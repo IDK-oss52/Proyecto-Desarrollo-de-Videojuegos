@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player_config>
+    <!-- Initial spawn position -->
+    <position x="96" y="96"/>
+    
+    <!-- Movement parameters -->
+    <movement>
+        <speed value="4.0"/>
+        <jumpForce value="2.5"/>
+        <!-- Advanced movement -->
+        <dashForce value="20.0"/>      
+        <dashDuration value="200"/>    
+        <dashCooldown value="500"/>    
+    </movement>
+    
+    <!-- Texture and sprite info -->
+    <texture path="Assets/Textures/player2_spritesheet.png" width="32" height="32"/>
+    
+    <!-- Animation configuration -->
+    <animations tsx_path="Assets/Textures/PLayer2_Spritesheet.tsx"/>
+    
+    <!-- Audio effects -->
+    <audio>
+        <!-- Efectos de sonido del jugador -->
+        <fx name="pickCoin" path="Assets/Audio/Fx/coin_pickup.wav"/>
+        <fx name="jump" path="Assets/Audio/Fx/player_jump.wav"/>
+        <fx name="dash" path="Assets/Audio/Fx/player_dash.wav"/>
+        <fx name="damage" path="Assets/Audio/Fx/player_damage.wav"/>
+        <fx name="death" path="Assets/Audio/Fx/player_death.wav"/>
+    </audio>
+</player_config>
